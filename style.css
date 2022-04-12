@@ -78,7 +78,7 @@ nav {
 .ukrainebar {
     display:flex;
     justify-content:  center;
-    color: rgb(3, 45, 96);
+    color:  #032D60;
     background: #d8edff;
     line-height: 20px;
     align-items: center;
@@ -87,11 +87,13 @@ nav {
 .main1 {
     display: flex;
     background-image: url('assets/php-homepage-customer-story-headspace-lg-bg.png');
+    margin-top: 40px;
+    background-repeat: no-repeat;
 }
 
 .main1left {
     width: 40%;
-    margin-left: 50px;
+    margin-left: 80px;
     margin-right: 25px;
 }
 
@@ -104,9 +106,12 @@ nav {
 .main1right img {
     width: 530.5px;
     height: 530.5px;
+    margin-top: 59px;
+    margin-bottom: 59px; 
 }
 
 .main1left h1 {
+
     font-size: 52px;
     color: #032D60;
     font: "ITC Avant Garde";
@@ -134,4 +139,8 @@ nav {
     color: rgb(1, 118, 211);
     border-color: rgb(1, 118, 211);
     background-color: #FFFFFF;
+}
+
+svg {
+    margin-right: 10px;
 }
