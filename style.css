@@ -36,7 +36,28 @@ button {
     padding-top: 0px;
     position: relative;
     text-align: center;
+    cursor: pointer;
+}
 
+a {
+    cursor: pointer; 
+}
+
+.blubutton {
+    background-color: rgb(1, 118, 211);
+}
+.blubutton:hover {
+    background-color: #094e91 ; 
+    transition: 0.3s;
+}
+
+.greenbutton {
+    background-color: rgb(46, 132, 65);
+}
+
+.greenbutton:hover {
+    background-color: #22683E;
+    transition: 0.3;
 }
 
 .navrightbuttons {
@@ -139,6 +160,10 @@ nav {
     color: rgb(1, 118, 211);
     border-color: rgb(1, 118, 211);
     background-color: #FFFFFF;
+}
+
+.clearbutton:hover {
+    background-color: #D8E6FE;
 }
 
 svg {
