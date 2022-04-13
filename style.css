@@ -199,10 +199,10 @@ svg {
     
 }
 
-/* .dropdown:hover .main1 { Sorry, friend. This won't work because you can't use a contextual selector on a parent element. 
+.dark {
     filter:brightness(50%);
     background-color: lightgray;
-} */
+}
 
 .dropdown-column {
     display: flex;
