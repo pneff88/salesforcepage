@@ -57,7 +57,7 @@ a {
 
 .greenbutton:hover {
     background-color: #22683E;
-    transition: 0.3;
+    transition: 0.3s;
 }
 
 .navrightbuttons {
@@ -164,6 +164,7 @@ nav {
 
 .clearbutton:hover {
     background-color: #D8E6FE;
+    transition: 0.3s;
 }
 
 svg {
