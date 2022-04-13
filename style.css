@@ -43,6 +43,10 @@ a {
     cursor: pointer; 
 }
 
+nav li {
+    cursor: pointer; 
+}
+
 .blubutton {
     background-color: rgb(1, 118, 211);
 }
@@ -69,7 +73,7 @@ nav button {
     margin-right: 5px;
 }
 
-li {
+ li {
     list-style: none; 
     display: inline; 
     margin: 10px;
@@ -108,7 +112,7 @@ nav {
 .main1 {
     display: flex;
     background-image: url('assets/php-homepage-customer-story-headspace-lg-bg.png');
-    margin-top: 40px;
+    padding-top: 40px;
     background-repeat: no-repeat;
 }
 
@@ -169,4 +173,47 @@ nav {
 
 svg {
     margin-right: 10px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative; 
+}
+
+.dropdown-content {
+    display: none; 
+    padding-top: 15px;
+    position: absolute; 
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    min-width: 600px;
+    height: 400px;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    
+}
+
+/* .dropdown:hover .main1 { Sorry, friend. This won't work because you can't use a contextual selector on a parent element. 
+    filter:brightness(50%);
+    background-color: lightgray;
+} */
+
+.dropdown-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 100%;
+}
+
+.dropdown-column ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    max-height: 100%;
 }
